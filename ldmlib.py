@@ -201,7 +201,7 @@ class LDM(object):
 
     def iter_cams(self, position=None, max_distance=None, max_age=None):
         '''return an iterator over the latest CAM received by vehicles from
-        each vehicle. allows filtering by distance and how long age
+        each vehicle. allows filtering by distance and how long ago
         the message was received.
 
         args:
